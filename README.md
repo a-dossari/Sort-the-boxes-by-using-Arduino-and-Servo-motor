@@ -4,6 +4,7 @@ I designed a control system for a production line, to sort three sizes of boxes,
 
 As you can see in the file, the sensors are placed vertically, and the distance between each other is 10 cm. When the box passes in front of the sensors, the system will know the size of the box by knowing the number of sensors that detected the box (for example: the size of the box is medium if the number of sensors is 2). The LEDs also show the size of the box, each LED lights up when the sensor detects the box (for example: when the bottom sensor only detects the box, the bottom LED will light up, then you will know that the box is small). After the system knows the size of the box, the motor will rotate to a specific angle to make the box move to a specific direction, and each size has a certain angle. I used the buttons for safety, in case if the sensors are damaged or an error occurs. 
 
+
 There are videos similar to what I did, which are:
 
 **Determine the size of the box by using the sensors**:
